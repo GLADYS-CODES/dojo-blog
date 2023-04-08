@@ -50,3 +50,55 @@
 .blog-preview:hover {
   background-color: #f2f2f2;
 }
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+.create {
+  max-width: 600px;
+  margin: 0 auto;
+  
+  border: 1px solid #f2f2f2;
+
+text-align: center;
+
+
+}
+
+
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #f2f2f2;
+  font-size: 16px;
+  margin:  10px 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  display: block;
+}
+
+.create label {
+  font-size: 16px;
+  
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  font-family: 'Manrope', sans-serif;
+  color: blueviolet;
+  margin-bottom: 30px;
+}
+.create button {
+  padding: 10px;
+  font-family: 'Manrope', sans-serif;
+  background-color: blueviolet;
+  color: rgb(185, 145, 187);
+  cursor: pointer;
+  border: none;
+}
